@@ -1,28 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Exo+2:wght@900&family=Pacifico&family=Questrial&family=Roboto+Mono:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
 
 header {
     width: 100%;
     height: 8rem;
-    background-color: rgb(250, 246, 225);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .lo{
     color: palevioletred;
 }
+
+.mains{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
 .logo{
     /* margin: 0 0 0 0; */
     font-size: 3.2rem;
     position: relative;
     padding: 5px;
+    font-family: 'Bebas Neue';
     cursor: pointer;
+    color: white;
+    letter-spacing: 2px;
 }
 
 nav ul{
@@ -43,18 +61,22 @@ nav ul li a{
     padding: 10px;
     border-radius: 10px;
     transition: all 0.3s ease;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
 }
 
 nav ul li a:hover{
-    background-color: darkorchid;
-    color: aqua;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 .logo::before{
     content: '"Where beats meet heart"';
-    
-    font-size: 1rem;
+    color: white;
+    font-size: 0.6rem;
     position: absolute;
+    font-family: 'Questrial';
     bottom: 0;
     left: 70px;
 }
@@ -65,11 +87,14 @@ nav ul li a:hover{
     padding: 17px;
     border-radius: 21px;
     font-size: 1.4rem;
-    color: rgb(235, 231, 36);
+    color: rgb(235, 235, 235);
     font-weight: bold;
-    background-color: rgb(223, 18, 18);
+    background-color: deeppink;
     border: 1px solid orchid;
     transition: all 0.3s ease-in-out;
+    font-family: 'Roboto Mono';
+    word-spacing: 3px;
+    letter-spacing: 3px;
 }
 
 .btn:hover{
